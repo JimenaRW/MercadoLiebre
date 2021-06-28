@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-let puerto = 3030;
 const path = require('path');
+let puerto = 3030;
 
 app.use(express.static('public'));
 
